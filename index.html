@@ -16,44 +16,52 @@
 
         <div class="panel-body">
             <form>
-            <div class="row padding-top-10">
-                <div class="col-md-1 area">
+            <div class="row">
+                <div id="nme" class="col-md-1 area1 padding-top-10">
                     <label for="firstName" class="form-control-label">Name:</label>
                 </div>
                 
-                <div class="col-md-5">
+                <div class="col-md-5 padding-top-10">
                     <input type="text" class="form-control" id="firstName" placeholder="First Name"/>
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-5 padding-top-10">
                     <input type="text" class="form-control" id="lastName" placeholder="Last Name"/>
                 </div>
             </div>
-                <div class="row padding-top-10 area1">
-                    <div class="col-md-1">
-                    
+                <div class="row padding-top-10">
+                    <div class="col-md-12 area1">
+                        <label for="city" class="form-control-label">Address:</label>
+                        <input type="text" class="form-control" id="address" placeholder="Your Address"/>
+                    </div>
                 </div>
+                <div class="row padding-top-10">
                     <div class="col-md-5">
-                        <label for="firstName" class="form-control-label">City:</label>
+                        <label for="city" class="form-control-label">City:</label>
+                        <input type="text" class="form-control" id="city" placeholder="Your city"/>
                     </div>
                     <div class="col-md-2">
-                        <label for="firstName" class="form-control-label">State:</label>
+                        <label for="state" class="form-control-label">State:</label>
+                        <input type="text" class="form-control" id="state" placeholder="Your state"/>
                     </div>
                     <div class="col-md-4">
-                        <label for="firstName" class="form-control-label">Country:</label>
+                        <label for="country" class="form-control-label">Country:</label>
+                        <input type="text" class="form-control" id="country" placeholder="Your country"/>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-1 area">
-                    <label for="city" class="form-control-label">Address:</label>
+                    <div class="col-md-6 padding-top-10 area1">
+                        <label for="email" class="form-control-label">Email Address:</label>
+                        <input type="text" class="form-control" id="email" placeholder="Email Address"/>
+                    </div>
                 </div>
-                    <div class="col-md-5">
-                        <input type="text" class="form-control" id="city" placeholder="City"/>
+                <div class="row">
+                    <div class="col-md-6 padding-top-10 area1">
+                        <label for="password" class="form-control-label">Password:</label>
+                        <input type="password" class="form-control" id="password" placeholder="Enter your password"/>
                     </div>
-                    <div class="col-md-2">
-                        <input type="text" class="form-control" id="state" placeholder="State"/>
-                    </div>
-                    <div class="col-md-4">
-                        <input type="text" class="form-control" id="Country" placeholder="Country"/>
+                    <div class="col-md-6 padding-top-10 area1">
+                        <label for="confirmpassword" class="form-control-label">Confirm Password:</label>
+                        <input type="password" class="form-control" id="confirmpassword" placeholder="Confirm your password"/>
                     </div>
                 </div>
             </form>
