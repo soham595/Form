@@ -599,9 +599,20 @@ pre code {
 .container {
   margin-right: auto;
   margin-left: auto;
+    padding-bottom: 0.5rem;
   padding-right: 15px;
   padding-left: 15px;
   width: 100%;
+    background-color: #d1d7ff;
+}
+
+.panel-heading {
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.checkbox {
+    text-align: center;
 }
 
 @media (min-width: 576px) {
@@ -1681,6 +1692,18 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   height: calc(2.3125rem + 2px);
 }
 
+/*form {
+   
+  border: 1px solid #c6c7cc;
+  border-radius: 5px;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow: hidden;
+}*/ 
+
+.padding-top-10 {
+        padding-top: 10px;
+}
+
 .form-group {
   margin-bottom: 1rem;
 }
@@ -1892,6 +1915,15 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
         align-items: center;
     margin-bottom: 0;
   }
+    
+    .area {
+        font-size: 1.4rem;
+    }
+    
+    .area1 {
+        font-size: 1.2rem;
+    }
+    
   .form-inline .form-control {
     display: inline-block;
     width: auto;
@@ -1902,7 +1934,8 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   }
   .form-inline .input-group {
     width: auto;
-  }
+  } 
+    
   .form-inline .form-control-label {
     margin-bottom: 0;
     vertical-align: middle;
@@ -1947,7 +1980,12 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   }
 }
 
+.btnsbt {
+    text-align: center;
+}
+
 .btn {
+    margin-bottom: 0.2rem;
   display: inline-block;
   font-weight: normal;
   text-align: center;
@@ -1958,7 +1996,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
       -ms-user-select: none;
           user-select: none;
   border: 1px solid transparent;
-  padding: 0.5rem 0.75rem;
+  padding: 0.5rem 1.75rem;
   font-size: 1rem;
   line-height: 1.25;
   border-radius: 0.25rem;
